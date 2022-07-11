@@ -4,6 +4,7 @@
 * Report & Presentation: contains the thesis report in `.pdf` format and the presentation in `.pptx` format.
 * Firmware: contains all the codes regarding the Data Acquisition and the Real-Time Evaluation Model in `.ino` format.
 * Software: contains all the codes for the Data Processing, Classification Model, Real-Time Evaluation Model and the functions used in `.py` format.
+* aehrich-database-default-rtdb-export.json: `.json` file which contains the dataset after ending the Data Acquisition process.
 
 ## 1. Report & Presentation
 * Alexander_Ehrich-Presentation.pptx: power point file of the thesis presentation.
