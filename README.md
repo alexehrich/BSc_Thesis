@@ -8,6 +8,8 @@
 ## 1. Report & Presentation
 
 ## 2. Firmware
+* evaluation: code used for the real-time evaluation of the model.
+* record_data: code used for the data acquisition process.
 
 ## 3. Software
 * gest_picture: folder with pictures of the gestures.
