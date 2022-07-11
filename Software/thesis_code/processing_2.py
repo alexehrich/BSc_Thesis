@@ -18,13 +18,13 @@ import seaborn as sns
 
 #Credentials to link Firebase project with Python
 firebaseConfig = {
-  "apiKey": "AIzaSyAwBffvO_waRFkEFjO8tJpDE4z8erMECQ0",
-  "authDomain": "aehrich-database.firebaseapp.com",
-  "projectId": "aehrich-database",
-  "databaseURL": "https://aehrich-database-default-rtdb.europe-west1.firebasedatabase.app/",
-  "storageBucket": "aehrich-database.appspot.com",
-  "messagingSenderId": "710072352888",
-  "appId": "1:710072352888:web:7aace7bb41b5847dcc6d8d"
+  "apiKey": "",
+  "authDomain": "",
+  "projectId": "",
+  "databaseURL": "",
+  "storageBucket": "",
+  "messagingSenderId": "",
+  "appId": ""
 }
 
 #Initializes interaction with realtime database
@@ -81,16 +81,11 @@ for val5 in data5.each():
                 #CORRECT GESTURES LENGHT
 ########################################################
 ########################################################
-print("Before correction")
-print(f"The length of the gestures' dataset is: {len(gest1)}")
 
 gest1 = fnc.correct_length(gest1)
 gest2 = fnc.correct_length(gest2)
 gest4 = fnc.correct_length(gest4)
 gest5 = fnc.correct_length(gest5)
-
-print("After correction")
-print(f"The length of the gesture 1 dataset is: {len(gest1)}")
 
 
 ########################################################
