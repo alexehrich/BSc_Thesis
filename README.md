@@ -6,6 +6,8 @@
 * Software: contains all the codes for the Data Processing, Classification Model, Real-Time Evaluation Model and the functions used in `.py` format.
 
 ## 1. Report & Presentation
+* Alexander_Ehrich-Presentation.pptx: power point file of the thesis presentation.
+* Thesis_Ehrich_Alexander.pdf: text file of the thesis. This file contains all the information and explanations of the Firmware and Software codes created and the working of them. 
 
 ## 2. Firmware
 * evaluation: code used for the real-time evaluation of the model.
